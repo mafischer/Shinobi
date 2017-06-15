@@ -7,7 +7,7 @@ var mysql = require('mysql');
 var moment = require('moment');
 var exec = require('child_process').exec;
 var spawn = require('child_process').spawn;
-var config=require('./conf.json');
+var config=require('../conf.json');
 var sql=mysql.createConnection(config.db);
 
 //set option defaults
